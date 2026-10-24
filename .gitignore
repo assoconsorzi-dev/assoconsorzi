@@ -1,0 +1,18 @@
+# never publish database dumps, configs, keys or archives
+*.sql
+*.sql.gz
+wp-config.php
+header.inc.php
+include/
+id_rsa
+id_rsa.*
+*.pem
+*.key
+.env
+*.env
+*.zip
+*.tgz
+*.tar.gz
+Thumbs.db
+.DS_Store
+error_log
